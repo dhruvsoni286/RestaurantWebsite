@@ -1,0 +1,48 @@
+
+.card {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.card-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #ced4da;
+}
+
+.form-control:focus {
+    border-color: #80bdff;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.btn-dark {
+    background-color: rgba(40, 128, 138, 0.99);
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+.btn-dark:hover {
+    background-color: #23272b;
+}
+
+.modal-content {
+    border-radius: 15px;
+}
+
+.modal-header {
+    background-color:rgba(40, 128, 138, 0.99);
+    color: white;
+    border-radius: 15px 15px 0 0;
+}
+
+.modal-body p {
+    margin-bottom: 10px;
+}
+
+

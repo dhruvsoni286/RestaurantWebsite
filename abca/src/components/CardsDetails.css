@@ -1,0 +1,63 @@
+/* CardsDetails.css */
+.card {
+    border: none;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .img-fluid {
+    border-radius: 10px 0 0 10px;
+  }
+  
+  .card-body {
+    padding: 2rem;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgba(40, 128, 138, 0.99);
+  }
+  
+  .table td {
+    border: none;
+    padding: 0.5rem 0;
+  }
+  
+  .btn {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-success {
+    background-color: rgba(40, 128, 138, 0.99);
+    border: none;
+  }
+  
+  .btn-success:hover {
+    background-color: rgba(30, 108, 118, 0.99);
+  }
+  
+  .btn-danger {
+    background-color: #dc3545;
+    border: none;
+  }
+  
+  .btn-danger:hover {
+    background-color: #c82333;
+  }
+  
+  .btn-warning {
+    background-color: #ffc107;
+    border: none;
+  }
+  
+  .btn-warning:hover {
+    background-color: #e0a800;
+  }
